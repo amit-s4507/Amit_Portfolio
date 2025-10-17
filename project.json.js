@@ -4,7 +4,7 @@ let all_project_data = [
     "tags": ["aws", "lambda", "glue", "athena", "quicksight", "etl", "python", "serverless"],
     "description": "Engineered a serverless ETL pipeline (S3 → Lambda → Glue → Athena → QuickSight) reducing reporting time from hours to minutes. Developed Lambda enrichment to compute Profit_Margin and cleanse raw data, improving accuracy and reducing Glue runtime.",
     "github-link": "https://github.com/amit-s4507/Serverless-Sales-Intelligence-Platform",
-    "project-link": "https://serverless-sales-intelligence.vercel.app",
+    
     "time": "2024-12-15T10:00:00Z",
     "image-link": "./images/project-image/serverless_aws.png"
   },
@@ -12,8 +12,8 @@ let all_project_data = [
     "name": "Employee Analytics Dashboard",
     "tags": ["tableau", "mysql", "sql", "analytics", "dashboard", "hr", "data-visualization"],
     "description": "Built end-to-end HR analytics solution on 38K+ records: SQL extraction → CSV ETL → Tableau dashboard. Authored stored procedure filter_salary(p_min, p_max) to analyze departmental avg salaries by gender across custom salary bands.",
-    "github-link": "https://github.com/amit-s4507/Employee-Analytics-Dashboard",
-    "project-link": "https://employee-analytics-dashboard.vercel.app",
+    "github-link": "https://github.com/amit-s4507/Employee-analytics-tableau-project",
+    
     "time": "2024-11-20T10:00:00Z",
     "image-link": "./images/project-image/employee-analytics.png"
   },
