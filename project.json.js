@@ -6,7 +6,7 @@ let all_project_data = [
     "github-link": "https://github.com/amit-s4507/Serverless-Sales-Intelligence-Platform",
     "project-link": "https://serverless-sales-intelligence.vercel.app",
     "time": "2024-12-15T10:00:00Z",
-    "image-link": "./images/project-image/serverless-sales.jpg"
+    "image-link": "./images/project-image/serverless_aws.png"
   },
   {
     "name": "Employee Analytics Dashboard",
@@ -15,7 +15,7 @@ let all_project_data = [
     "github-link": "https://github.com/amit-s4507/Employee-Analytics-Dashboard",
     "project-link": "https://employee-analytics-dashboard.vercel.app",
     "time": "2024-11-20T10:00:00Z",
-    "image-link": "./images/project-image/employee-analytics.jpg"
+    "image-link": "./images/project-image/employee-analytics.png"
   },
   {
     "name": "Resume Leveller - AI-Powered Resume Analysis",
@@ -24,7 +24,7 @@ let all_project_data = [
     "github-link": "https://github.com/amit-s4507/Ai-Resume-Analyzer",
     "project-link": "https://ai-resume-analyzer-nine-khaki.vercel.app",
     "time": "2024-10-15T10:00:00Z",
-    "image-link": "./images/project-image/resume-analyzer.jpg"
+    "image-link": "./images/project-image/resume-analyzer.png"
   },
   {
     "name": "Multichat AI Assistant",
@@ -33,7 +33,7 @@ let all_project_data = [
     "github-link": "https://github.com/amit-s4507/Ai--Assistant",
     "project-link": "https://ai-assistant-pi-self.vercel.app",
     "time": "2024-09-10T10:00:00Z",
-    "image-link": "./images/project-image/ai-assistant.jpg"
+    "image-link": "./images/project-image/ai-assistant.png"
   },
   {
     "name": "Student Levelling - Gamified Learning Platform",
@@ -42,7 +42,7 @@ let all_project_data = [
     "github-link": "https://github.com/amit-s4507/Student-Levelling",
     "project-link": "https://student-levelling.vercel.app",
     "time": "2024-08-15T10:00:00Z",
-    "image-link": "./images/project-image/student-levelling.jpg"
+    "image-link": "./images/project-image/student-levelling.png"
   },
   {
     "name": "Credit Card Fraud Detection - ML Project",
@@ -51,6 +51,6 @@ let all_project_data = [
     "github-link": "https://github.com/amit-s4507/Credit-Card-Fraud-Detection",
     "project-link": "",
     "time": "2024-07-20T10:00:00Z",
-    "image-link": "./images/project-image/fraud-detection.jpg"
+    "image-link": "./images/project-image/Credit-Card-Fraud-Detection.png"
   }
 ]

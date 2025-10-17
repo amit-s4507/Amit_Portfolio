@@ -1,24 +1,6 @@
 window.onload = () => {
-
-    let pinned_project_name = [
-        "elementalQuests",
-        "MNREGA_Hackanova_thisDot",
-        "spotlight",
-        "maze",
-        "tabSync",
-        "2048"
-    ]
-    let data = []
-    for (let i = 0; i < pinned_project_name.length; ++i) {
-        for (let j = 0; j < all_project_data.length; ++j) {
-            if (all_project_data[j]["name"] == pinned_project_name[i]) {
-                data.push(all_project_data[j])
-                break;
-            }
-        }
-    }
-    all_project_data = data;
-    // console.log(all_project_data);
+    // Use the first 3 projects from all_project_data for the main page
+    // No need to override all_project_data, just use makeProjects() which already limits to 3
     makeProjects()
 }
 

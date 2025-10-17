@@ -1,6 +1,6 @@
 let project_count_span;
 window.onload = () => {
-    makeProjects()
+    makeAllProjects()
 
     // get tag searched from params
     var url_string = window.location
