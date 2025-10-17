@@ -24,7 +24,7 @@ Final-year Computer Science student (CGPA: 9.22) specializing in Data Engineerin
 
 ## Live Demo
 
-Visit my portfolio at: https://portfolio-wheat-seven-70.vercel.app
+Visit my portfolio at: https://amit-portfolio-lime.vercel.app/
 
 ## Contact
 
