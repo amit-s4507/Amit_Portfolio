@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amit Santosh Sahu | Portfolio</title>
+
+
+    <!-- Android  -->
+    <meta name="theme-color" content="#ffffff">
+    <meta name="mobile-web-app-capable" content="yes">
+
+    <!-- iOS -->
+    <meta name="apple-mobile-web-app-title" content="Amit Santosh Sahu | Portfolio">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+
+    <!-- Tap highlighting  -->
+    <meta name="msapplication-tap-highlight" content="no">
+
+    <!-- UC Mobile Browser  -->
+    <meta name="full-screen" content="yes">
+    <meta name="browsermode" content="application">
+
+    <!-- Layout mode -->
+    <meta name="layoutmode" content="standard">
+
+    <!-- image mode - show image even in text only mode  -->
+    <meta name="imagemode" content="force">
+
+    <!-- Orientation  -->
+    <meta name="screen-orientation" content="portrait">
+
+    <!-- fb and whatsapp  -->
+    <meta name="msapplication-TileImage" content="https://portfolio-wheat-seven-70.vercel.app/images/profilePic.jpg">
+
+    <!-- Site Name, Title, and Description to be displayed -->
+    <meta property="og:site_name" content="Amit Santosh Sahu | Portfolio">
+
+    <!-- Image to display -->
+    <meta property="og:image" content="https://portfolio-wheat-seven-70.vercel.app/images/profilePic.jpg">
+
+    <!-- No need to change anything here -->
+    <meta property="og:type" content="website" />
+    <meta property="og:image:type" content="image/jpeg">
+
+    <!-- Size of image. Any size up to 300. Anything above 300px will not work in WhatsApp -->
+    <meta property="og:image:width" content="300">
+    <meta property="og:image:height" content="300">
+
+    <!-- Website to visit when clicked in fb or WhatsApp-->
+    <meta property="og:url" content="https://portfolio-wheat-seven-70.vercel.app">
+
+    <!-- Manifest.json  -->
+    <meta property="og:title" content="Amit Santosh Sahu | Portfolio">
+    <meta property="og:description" content="Data Engineer & Full-Stack Developer | Portfolio">
+    <meta property="og:image" itemprop="image" content="https://portfolio-wheat-seven-70.vercel.app/images/profilePic.jpg">
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://portfolio-wheat-seven-70.vercel.app">
+
+    <!-- Main Link Tags  -->
+    <link href="https://portfolio-wheat-seven-70.vercel.app/images/profilePic.jpg" rel="icon" type="image/png" sizes="16x16">
+    <link href="https://portfolio-wheat-seven-70.vercel.app/images/profilePic.jpg" rel="icon" type="image/png" sizes="32x32">
+
+    <!-- iOS  -->
+    <link href="./images/profilePic.jpg" rel="apple-touch-icon" sizes="152x152">
+
+    <!-- Android  -->
+    <link href="./images/profilePic.jpg" rel="icon" sizes="192x192">
+    <link href="./images/profilePic.jpg" rel="icon" sizes="512x512">
+
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@1,700&family=Montserrat&family=Roboto&display=swap"
+        rel="stylesheet">
+
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/f408aa718a.js" crossorigin="anonymous"></script>
+
+    <!-- style and scripts -->
+    <link rel="stylesheet" href="./styles/main.min.css">
+    <script src="./scripts/swipe.js"></script>
+    <script src="./scripts/nav.js"></script>
+    <script src="./project.json.js"></script>
+    <script src="./scripts/make-projects.js"></script>
+    <script src="./scripts/main.js"></script>
+</head>
+
+<body id="home">
+    <!-- navBar -->
+    <nav>
+        <div class="burger" onclick="menuOpen()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+        <div id="nav-h">
+            <a href="https://portfolio-wheat-seven-70.vercel.app">amit-sahu.</a>
+        </div>
+
+
+        <ul class="nav-links">
+            <a href="#home">
+                <li>About</li>
+            </a>
+            <a href="#education">
+                <li>Education</li>
+            </a>
+            <a href="#experience">
+                <li>Experience</li>
+            </a>
+            <a href="#projects">
+                <li>Projects</li>
+            </a>
+            <a href="#coding">
+                <li>Coding</li>
+            </a>
+        </ul>
+    </nav>
+
+    <!-- left social handle bar -->
+    <div class="social-handle-bar">
+        <a href="mailto:amitsahu174507@gmail.com" target="_blank">
+            <i class="fa-regular fa-envelope"></i>
+        </a>
+        <a href="https://github.com/amit-s4507" target="_blank">
+            <i class="fa-brands fa-dev"></i>
+        </a>
+        <a href="https://github.com/amit-s4507" target="_blank">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <a href="https://linkedin.com/in/amit-sahu-24a03s1707" target="_blank">
+            <i class="fa-brands fa-linkedin-in"></i>
+        </a>
+        <hr>
+    </div>
+
+    <!-- about -->
+    <div id="about">
+        <div class="about-content-holder">
+            <div class="left">
+                <div class="intro">Hi, my name is</div>
+                <div class="name">Amit Santosh Sahu</div>
+                <div class="description">
+                    I'm a Data Engineer & Full-Stack Developer specializing in building production-grade ETL pipelines and data analytics solutions. <br>
+                    I enjoy combining my skills in cloud computing, data engineering, and software development to deliver scalable, data-driven solutions.
+                </div>
+                <div class="button-holder">
+                    <a href="https://drive.google.com/file/d/1cbmlpDewXDbnerW5KeZu6f2iLUvaG-F1/view?usp=drive_link"
+                        target="_blank">
+                        <button>
+                            Resume
+                        </button>
+                    </a>
+                    <a href="mailto:amitsahu174507@gmail.com" target="_blank">
+                        <button>
+                            Contact Me
+                        </button>
+                    </a>
+                </div>
+            </div>
+            <div class="right">
+                <div class="img-holder">
+                    <img src="./images/profilePic.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Education -->
+    <div id="education" class="section">
+        <div class="section-holder">
+            <div class="section-heading">
+                Education
+            </div>
+            <div class="edu-card">
+                <div class="institute-name">
+                    Shri Ramdeobaba College of Engineering and Management
+                </div>
+                <div class="degree-name">
+                    BTech. Computer Science and Engineering (AIML)
+                </div>
+                <div class="extra">
+                    Nagpur, Maharashtra, India | <b>Jun 2026</b>
+                </div>
+                <div class="grade">
+                    CGPA: <b>9.22/10</b>
+                </div>
+
+            </div>
+            <div class="edu-card">
+                <div class="institute-name">
+                    G.B.M. Junior College
+                </div>
+                <div class="degree-name">
+                    Higher Secondary Education (HSC)
+                </div>
+                <div class="extra">
+                    Hinganghat, Maharashtra, India | <b>Feb 2022</b>
+                </div>
+                <div class="grade">
+                    Grade: <b>90.33%</b>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Experience -->
+    <div id="experience" class="section">
+
+        <div class="section-holder">
+            <div class="section-heading">
+                Experience
+            </div>
+
+            <!-- Codelintech -->
+            <div class="exp-card">
+                <div class="company-name">
+                    Codelintech Softweb LLP
+                </div>
+
+                <div class="role">
+                    <b>Software Developer – Cloud Intern</b>
+                </div>
+
+                <div class="detail">
+                    <div class="duration">
+                        March 2025 - May 2025
+                    </div>
+                    <div class="location">
+                        Remote
+                    </div>
+                </div>
+
+                <div class="description">
+                    • Collaborated within an 8-member cross-functional team to build and deliver cloud-based applications under defined project deadlines. <br>
+                    • Contributed to data handling and deployment workflows on AWS platform, strengthening cloud-based development practices (S3, Lambda). <br>
+                    • Containerized applications using Docker to ensure consistent builds and reliable deployment across different environments. <br>
+                    • Practiced collaborative development using Git/Gitea for code reviews, version control, and project discussions in distributed team setting. <br>
+                    • Skills: <b>AWS · Docker · Git · Cloud Development</b>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Projects -->
+    <div id="projects" class="section">
+        <div class="section-holder">
+            <div class="section-heading">
+                Projects
+            </div>
+        </div>
+
+        <div id="project-div">
+
+        </div>
+        <a href="/all-project.html">
+            <button>
+                see all projects
+            </button>
+        </a>
+    </div>
+
+    <!-- Coding Profiles -->
+    <div id="coding" class="section">
+        <div class="section-holder">
+            <div class="section-heading">
+                Coding Profiles
+            </div>
+
+
+            <div id="profile-div">
+
+                <a href="https://leetcode.com/u/Orewa_Amit_1707/" target="_blank">
+                    <div class="coding-profile-card">
+                        <div class="platform-name">
+                            Leetcode
+                        </div>
+                        <div class="stat">
+                            Max Rating: 1676
+                        </div>
+                        <div class="handle">
+                            @amit-s4507
+                        </div>
+                    </div>
+                </a>
+
+                <a href="https://www.codechef.com/users/amit_1707" target="_blank">
+                    <div class="coding-profile-card">
+                        <div class="platform-name">
+                            Codechef
+                        </div>
+                        <div class="stat">
+                            2 Star | Max Rating: 1433
+                        </div>
+                        <div class="handle">
+                            @amit_s4507
+                        </div>
+                    </div>
+                </a>
+
+                <a href="https://codeforces.com/profile/amitsahu174507" target="_blank">
+                    <div class="coding-profile-card">
+                        <div class="platform-name">
+                            Codeforces
+                        </div>
+                        <div class="stat">
+                            Max Rating: 1194
+                        </div>
+                        <div class="handle">
+                            @amit_s4507
+                        </div>
+                    </div>
+                </a>
+
+                <a href="https://www.geeksforgeeks.org/user/amitsahudd3o/" target="_blank">
+                    <div class="coding-profile-card">
+                        <div class="platform-name">
+                            Geeks For Geeks
+                        </div>
+                        <div class="stat">
+                            200+ Questions Solved
+                        </div>
+                        <div class="handle">
+                            @amit_s4507
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Skills -->
+    <div id="skills" class="section">
+        <div class="section-holder">
+            <div class="section-heading">
+                Skills
+            </div>
+
+            <div class="skill-holder">
+                <div>
+                    <h2>Programming Languages</h2>
+                    <ol>
+                        <li>Python</li>
+                        <li>JavaScript</li>
+                        <li>SQL</li>
+                        <li>C++</li>
+                        <li>Java</li>
+                    </ol>
+                </div>
+                <hr>
+                <div>
+                    <h2>Data Engineering & Cloud</h2>
+                    <ol>
+                        <li>AWS (S3, Lambda, Glue, Athena, QuickSight)</li>
+                        <li>ETL Pipelines</li>
+                        <li>Docker</li>
+                        <li>Tableau</li>
+                    </ol>
+                </div>
+                <hr>
+                <div>
+                    <h2>Frameworks & Libraries</h2>
+                    <ol>
+                        <li>React.js</li>
+                        <li>Next.js 13+</li>
+                        <li>FastAPI</li>
+                        <li>LangChain</li>
+                        
+                    </ol>
+                </div>
+
+                <hr>
+
+                <div>
+                    <h2>Machine Learning & Data Science</h2>
+                    <ol>
+                        <li>Scikit-learn</li>
+                        <li>Pandas</li>
+                        <li>NumPy</li>
+                        <li>SMOTE</li>
+                        <li>Model Evaluation</li>
+                    </ol>
+                </div>
+
+                <hr>
+
+                <div>
+                    <h2>Tools & Technologies</h2>
+                    <ol>
+                        <li>Git/GitHub</li>
+                        <li>Vercel</li>
+                        <li>Railway</li>
+                        <li>PostgreSQL</li>
+                        <li>MySQL</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- contact me -->
+    <div id="contact" class="section">
+        <div class="section-holder">
+            <div class="section-heading">
+                Contact Me
+            </div>
+        </div>
+
+        <p>
+            I'm always excited to connect with fellow data engineers and tech enthusiasts! <br>
+            If you're interested in discussing data engineering, cloud computing, or simply want to say hi, don't hesitate to reach out.
+            <br><br>
+            Feel free to contact me anytime, and let's explore the world of data-driven solutions together!
+
+        </p>
+        <a href="mailto:amitsahu174507@gmail.com">
+            <button>
+                Say Hello
+            </button>
+        </a>
+    </div>
+    <!-- footer -->
+    <footer>
+        © 2025 Amit Santosh Sahu. All Right Reserved.
+    </footer>
+</body>
+
+</html>
+
+</html>
